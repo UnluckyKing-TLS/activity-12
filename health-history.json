@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2026-05-10T03:07:13.706Z",
+    "measurements": [
+      {
+        "endpoint": "/",
+        "error": "fetch is not a function",
+        "timestamp": "2026-05-10T03:07:13.705Z"
+      },
+      {
+        "endpoint": "/health",
+        "error": "fetch is not a function",
+        "timestamp": "2026-05-10T03:07:13.706Z"
+      }
+    ],
+    "hadSlowResponses": true
+  },
+  {
+    "date": "2026-05-10T03:07:35.764Z",
+    "measurements": [
+      {
+        "endpoint": "/",
+        "status": 200,
+        "responseTimeMs": 24,
+        "timestamp": "2026-05-10T03:07:35.742Z"
+      },
+      {
+        "endpoint": "/health",
+        "status": 404,
+        "responseTimeMs": 21,
+        "timestamp": "2026-05-10T03:07:35.764Z"
+      }
+    ],
+    "hadSlowResponses": false
+  }
+]
